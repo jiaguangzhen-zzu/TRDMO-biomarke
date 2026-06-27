@@ -6,9 +6,9 @@ Source MATLAB codes and datasets for critical disease biomarker identification b
 - `TRDMO.m`: Main execution script of the proposed algorithm
 - Baseline comparison methods: `DNSGA2.m`, `MOEAPSL.m`, `RBM.m`
 - Evolutionary operators: `creatpop.m`, `Cross1.m`, `Muation.m`, `TournamentSelection.m`, `NDSort.m`, `CrowdingDistance.m`
-- Performance metrics: `HV.m`, `IGD.m`
+- Performance metrics: `HV.m`
 - Network construction & training: `calculate_second_order_connectivity.m`, `DAE.m`, `ModelTraining.m`
-- Result processing & plotting: `extract.m`, `Fin_POP.m`, `FinPOP_fig.m`
+
 
 ### /data Folder
 TCGA multi-cancer gene expression profiles and dynamic gene interaction networks for experiments.
